@@ -6,6 +6,9 @@
 
 This document provides essential information about the login page built with React for the college laboratory work portal. This page is the entry point for various the laboratory related projects.
 
+Also there is a JavaScript version in the main branch and a TypeScript version in the JavaScriptVersion branch.
+
+
 ## Installation
 
 1. **Clone the Repository**
