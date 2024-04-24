@@ -41,7 +41,7 @@ function LoginForm() {
     <div style={styles.cardStyle}>
       <div style={styles.loginSectionStyle}>
         <div style={{ textAlign: 'center', marginTop: '-48px' }}>
-          <img src={LogoImg} alt="Logo" style={{ width: '35%', margin: '19px auto', display: 'block' }} />
+          <img src={LogoImg} alt="Logo" style={{ width: '35%', margin: '19px auto', marginTop:'66px',display: 'block' }} />
         </div>
         <form onSubmit={handleLoginSubmit}>
           <div style={styles.formGroupStyle}>
