@@ -1,6 +1,6 @@
 # React Login Page 
 
-![image](https://github.com/EmircanKartal/React-Login-Page/assets/88210656/a43d3108-92e4-4f6c-a03f-305b96b07da9)
+![image](https://github.com/EmircanKartal/React-Login-Page/assets/88210656/a05bdb14-c429-4df5-be1e-a001ee3e9574)
 
 ## Introduction
 
