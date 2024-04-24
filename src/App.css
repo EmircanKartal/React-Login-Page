@@ -1,0 +1,59 @@
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; 
+  background-color: #e5fee4; 
+  overflow: hidden; 
+  backdrop-filter: blur(400px); 
+}
+
+.login-form {
+  z-index: 10; 
+  position: relative; 
+  backdrop-filter: none;
+}
+.login-form::before {
+  position: absolute;
+  top: -20px; 
+  right: -20px;
+  bottom: -20px;
+  left: -20px;
+  background-color: rgba(255, 255, 255, 0.64); 
+  z-index: -1; 
+  filter: blur(10px); 
+  border-radius: 8px; 
+}
+
+.blur-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;  
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(9px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border:1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  background-color: rgba(255, 255, 255, 0.14);
+  z-index: 4; 
+}
+
+.gradient-background {
+  z-index: 0; 
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('assets/kocaelisaydam1.png'); 
+  background-size: cover;
+  background-position: center;
+  z-index: 4; 
+}
